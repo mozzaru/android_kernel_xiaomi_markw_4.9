@@ -24,7 +24,6 @@
 			reg = <0x0 0x9ff00000 0x0 0x00100000>;
 			label = "pstore_reserve_mem";
 		};
-
 		venus_qseecom_mem: venus_qseecom_region@0 {
 			linux,reserve-contiguous-region;
 			linux,reserve-region;
