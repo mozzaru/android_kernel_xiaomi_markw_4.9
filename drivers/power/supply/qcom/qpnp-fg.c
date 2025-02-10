@@ -4284,7 +4284,6 @@ static void status_change_work(struct work_struct *work)
 			}
 
 			chip->safety_timer_expired = false;
-			msleep(200);
 
 			rc = set_prop_enable_charging(chip, true);
 			if (rc) {
